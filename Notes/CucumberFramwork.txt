@@ -1,0 +1,20 @@
+Tha main aim of behaviour driven framework is to make various project roles such as BA,QA,DEV etc. understand the app without diving into technical aspects.
+Gherkin uses keywords like Feature,Scenario,Scenario outline,  Given, When,Then etc.
+Scenario outline use.
+StepDef use
+Advantage of Cucumber.
+Example of feature file
+Example of Example keyword.
+Purpose of BDD.
+A feature file can contain maximum 10 scenarios. Number can very from project to project and org. to organization.
+Background keyword. is for giving repeated statement. for x=example url open and launching browser.
+Purpose for @CucumberOptions
+>Cucumber Options tag is used to provide a link between the feature files and step definition files. Each step of the feature file is mapped to a corresponding method on the step definition file
+When cucumber is used in real time.
+q.22 must refer.
+Use of given,When,the Q.22
+Plugin for integrating cucumber with eclipse or intellige
+meaning of TestRunner as per cucumber q.26
+q.28
+q.29
+q.30

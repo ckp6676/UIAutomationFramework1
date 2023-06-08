@@ -1,0 +1,17 @@
+Utils\Log.class
+Utils\BrowserFactory.class
+Utils\CommonUtil.class
+Utils\failedRunTestCases.class
+PageObjects\BasePage.class
+TestRunners\loginFunctionality_dataprovider.class
+Utils\AnnotationTransformer.class
+TestRunners\TSFATestCase2.class
+PageObjects\TFSALoginFuctionality.class
+TestRunners\LoginPageTest.class
+Utils\ExtentManager.class
+DataReaders\PropertyFileReaders.class
+PageObjects\LoginPage.class
+TestRunners\BaseTest.class
+PageObjects\TFSAOpenNewAccount.class
+Utils\excelReader.class
+Utils\ExtentTestManager.class

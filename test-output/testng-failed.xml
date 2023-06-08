@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="UIAutomationFramwork1(failed)">
+    <classes>
+      <class name="TestRunners.BaseTest">
+        <methods>
+          <include name="Aftercuation"/>
+          <include name="cuation"/>
+        </methods>
+      </class> <!-- TestRunners.BaseTest -->
+      <class name="TestRunners.TSFATestCase2">
+        <methods>
+          <include name="openBrowserAndLaunchApplication"/>
+          <include name="TestTFSACalculatorFunctionalityForNewUser"/>
+          <include name="a_takeScreenshots"/>
+          <include name="readBrowserName"/>
+          <include name="toKnowWhichClassIsExecuting"/>
+        </methods>
+      </class> <!-- TestRunners.TSFATestCase2 -->
+    </classes>
+  </test> <!-- UIAutomationFramwork1(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

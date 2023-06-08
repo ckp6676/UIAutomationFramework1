@@ -1,0 +1,48 @@
+how to scroll-down
+how to switch to window?
+There are some ways that we can use to switch to windows. Using window handles, defualt content, parentFrame()
+Also we can use set collection for that.
+we have to store our current window handle into one variable then for other window use enhance for loop to store values and we can switch all window by using that loop
+other way;
+Make sure you see about giving parameters for multiple browser opening
+When you are doing BrowserStack make sure you store name in global variable and comment reading of propertyfile reader statement as we are initializing that in before test
+Make sure you read testNG imp questions all
+For running testcases through command line you need maven install in your local machine and then from cmd mvn clean test by directing your project in cmd
+For parallel run add parallel in your groups.xml, and then it will run parallely, and it runs as n group of 5
+Thread-count meaning?
+Thread count refers to the number of threads or strands per square inch of fabric, counting horizontal and vertical threads.
+Any third party file which is not related to java throws checked exception(IOException)
+taskkill /f /im chromedriver.exe  /t
+
+>To run test method multiple times in a loop, we can use invocationCount parameter and setting its value yo an integer value, makes the test method run n number of times.
+example:- @Test(invocationCount= 5)
+>Default priority of testNG is
+>Soft Assertion vs hard Assertion:- by soft assertion, we can give multiple assertions and call all of them by softAssert.assertALL() method.
+                                    In softAssertion if test methods fails, test method will still execute.
+                                    Hard assertion is provided by TestNG.Here if assertion fails, execution will stop.
+> To fail testNG test case if it is not executing within certain time, we can use @Test(timeout=1000).
+>To skip test cases conditionally, use skipException.
+>check Q.106
+>selenium provides a PROXY class to redirect browsing from a proxy.(exaple Q.108)
+>For scrolling using javaScriptExecutor, ((JavaScriptExecutor) driver).executescript("window.scrollBy(0,500)"where 0,500 is pixel
+> for moving ot particular element,      ((JavaScriptExecutor) driver).executescript("arguments[0].scrollIntoView();",element);
+> Dimension object and setSize method is used to set size of window.(q.111)
+>For entering text without sendKeys, we can do by javaScriptExecutor.
+ javaScriptExecutor jse = new (javaScriptExecutor) driver;
+ jse.executeScript("text");
+>To verifying, alert is present, we can use explicit wait.
+ WebDriverWait wait = new WebDriverWait(driver,10);
+ Alert alert = wait(untilExpectedConditions.alertIsPresent());
+ alert.authenticateUsing(**username**,**password**));
+>To run failed testCases use testNg-failed.xml file
+>What different XPath functions that you have used in your Project.(Q.117)
+>What happens in background when any browser object is called
+>Q.119
+>innerFrame handling,
+>If element is not visible using element, how we can click on it, using javaScriptExecutor.
+ javaScriptExecutor jse = new (javaScriptExecutor) driver;
+ jse.executeScript("arguments[0].click();",element);
+>Diff. between assert(execution will stop if condition is false) and verify(execution will not stop if condition is false)? q.122
+>Q.125
+>
+

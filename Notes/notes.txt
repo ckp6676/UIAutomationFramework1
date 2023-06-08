@@ -1,0 +1,28 @@
+> To handle Ajax dropdown, we can do it by implicit wait, WebDriver wait or FluentWait.
+>SeleniumGrid port Number 4444
+>To multiple browser parallel , we can do using Selenium grid.
+>How to find broken images in selenium ?
+>By deleteAllVisibleCookies() method, we can disable cookies.
+>we can handle dynamic xpath using classname and css.
+>We can not automate barcode, captcha.
+>How to count hyperlinks?  ListallLinks= driver.findByElements(by tagName("a"));
+                            sout(allLinks.size());
+>What is SeleniumIDE?
+>What is Selenese?
+>What is Selenium RC?
+>What is WebDriver and why web-driver is interface?
+The WebDriver interface serves as a contract that each browser-specific implementation like ChromeDriver, FireFoxDriver must follow.
+>When is Selenium Grid and its advantages?
+>Type of WebDriver APIs in selenium?
+ Excel Reader utility -APACHE POI.
+ Log4J API.
+ JavaMail API.
+ JDBC API.
+>Languages supported by selenium?
+
+
+
+
+
+
+
